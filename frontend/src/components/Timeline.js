@@ -1,6 +1,6 @@
 /*
  * This file is part of caronte (https://github.com/eciavatta/caronte).
- * Copyright (c) 2020 Emiliano Ciavatta.
+ * Copyright (c) 2020 Keshav Goyal.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
