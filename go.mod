@@ -3,7 +3,7 @@ module github.com/eciavatta/caronte
 go 1.14
 
 require (
-	github.com/StackExchange/wmi v1.2.0 // indirect
+	github.com/StackExchange/wmi v1.2.0 
 	github.com/flier/gohs v1.1.0
 	github.com/gin-gonic/contrib v0.0.0-20201101042839-6a891bf89f19
 	github.com/gin-gonic/gin v1.7.2
