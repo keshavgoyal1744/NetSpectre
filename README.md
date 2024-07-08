@@ -1,17 +1,18 @@
 # `NetSpectre$`
 
-[![Test Status](https://github.com/eciavatta/caronte/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/eciavatta/caronte/actions/workflows/test.yml)
-[![Deploy Status](https://github.com/eciavatta/caronte/actions/workflows/deploy.yml/badge.svg)](https://github.com/eciavatta/caronte/actions/workflows/deploy.yml)
-[![codecov](https://codecov.io/gh/eciavatta/caronte/branch/develop/graph/badge.svg)](https://codecov.io/gh/eciavatta/caronte)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/009dca44f4da4118a20aed2b9b7610c0)](https://www.codacy.com/manual/eciavatta/caronte?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=eciavatta/caronte&amp;utm_campaign=Badge_Grade)
-![GitHub release (latest by date)](https://img.shields.io/github/v/tag/eciavatta/caronte)
+[![Test Status](https://github.com/keshavgoyal1744/caronte/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/keshavgoyal1744/caronte/actions/workflows/test.yml)
+[![Deploy Status](https://github.com/keshavgoyal1744/caronte/actions/workflows/deploy.yml/badge.svg)](https://github.com/keshavgoyal1744/caronte/actions/workflows/deploy.yml)
+[![codecov](https://codecov.io/gh/keshavgoyal1744/caronte/branch/develop/graph/badge.svg)](https://codecov.io/gh/keshavgoyal1744/caronte)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/009dca44f4da4118a20aed2b9b7610c0)](https://www.codacy.com/manual/keshavgoyal1744/caronte?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=keshavgoyal1744/caronte&amp;utm_campaign=Badge_Grade)
+![GitHub release (latest by date)](https://img.shields.io/github/v/tag/keshavgoyal1744/caronte)
 ![Language](https://img.shields.io/badge/language-go-blue)
-![License](https://img.shields.io/github/license/eciavatta/caronte)
+![License](https://img.shields.io/github/license/keshavgoyal1744/caronte)
 
-NetSpectre is a tool to analyze the network flow during capture the flag events of type attack/defence.
+NetSpectre is a tool to analyze the network flow during capture the flag events of type attack/defence, monitoring automatic data flows, scrutinizing IoT devices on network, conducting in-depth network analysis, or AI threat analysis.
 It reassembles TCP packets captured in pcap files to rebuild TCP connections, and analyzes each connection to find user-defined patterns.
 The patterns can be defined as regex or using protocol specific rules.
-The connection flows are saved into a database and can be visualized with the web application. REST API are also provided.
+The connection flows are saved into a database and can be visualized with the web application. REST API are also provided. Not only this
+but this tool is further integrated with AI which helps in threat analysis and also helps in depth analysis of IoT devices security on the network.
 
 ## Features
 -   immediate installation with docker-compose
@@ -46,7 +47,8 @@ There are two ways to install NetSpectre:
 
 ### Run with Docker
 The only things to do are:
--   clone the repo, with `git clone https://github.com/eciavatta/caronte.git`
+-   clone the repo, with `git clone https://github.com/keshavgoyal1744/caronte.git`
+-   unzip the zip file.
 -   inside the `caronte` folder, run `docker-compose up -d`
 -   wait for the image to be compiled and open browser at `http://localhost:3333`
 
@@ -80,22 +82,24 @@ The configuration takes place at runtime on the first start via the graphical in
 -   an optional `accounts` array, which contains the credentials of authorized users
 
 ## Documentation
-The backend, written in Go language, it is designed as a service. It exposes REST API that are used by the frontend written using React. The list of available APIs with their explanation is available here: [https://app.swaggerhub.com/apis-docs/eciavatta/caronte/WIP](https://app.swaggerhub.com/apis-docs/eciavatta/caronte/WIP)
+The backend, written in Go language, it is designed as a service. It exposes REST API that are used by the frontend written using React. The list of available APIs with their explanation is available here: [https://app.swaggerhub.com/apis-docs/keshavgoyal1744/caronte/WIP](https://app.swaggerhub.com/apis-docs/keshavgoyal1744/caronte/WIP)
 
 ## Screenshots
 Below there are some screenshots showing the main features of the tool.
 
 ### Main window, with connections list and stream content
-![Connection Content](https://raw.githubusercontent.com/eciavatta/caronte/main/frontend/screenshots/main.png)
+![main](https://github.com/keshavgoyal1744/caronte/assets/24409893/9ad28507-1a2c-4c6d-b585-60c7ea4616e1)
+
 
 ### Main window, with the timeline expanded
-![Connection Content](https://raw.githubusercontent.com/eciavatta/caronte/main/frontend/screenshots/main2.png)
+![main2](https://github.com/keshavgoyal1744/caronte/assets/24409893/d18eb63b-0903-46e9-9dc3-5a6c4623e600)
 
 ### Rules and services view
-![Connection Content](https://raw.githubusercontent.com/eciavatta/caronte/main/frontend/screenshots/rules_services.png)
+![rules_services](https://github.com/keshavgoyal1744/caronte/assets/24409893/8ecd20b6-7574-44a6-8128-837152935801)
+
 
 ### Searches and pcaps view
-![Connection Content](https://raw.githubusercontent.com/eciavatta/caronte/main/frontend/screenshots/searches_pcaps.png)
+![searches_pcaps](https://github.com/keshavgoyal1744/caronte/assets/24409893/0ee49af9-e0c0-446a-b58d-8049f7f95344)
 
 ## License
-caronte was created by [Keshav Goyal](https://eciavatta.dev) and is licensed under the [GPL-3.0 license](LICENSE).
+NetSpectre was created by [Emiliano Ciavatta] and revised by Keshav Goyal is licensed under the [GPL-3.0 license](LICENSE).
